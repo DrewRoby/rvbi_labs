@@ -1,0 +1,35 @@
+Title: Doomed player mechanic test 1
+Players: 2
+Play area: Tabletop
+Description: Two decks of cards, and a row of counting spaces with a clear forward and back (good and bad direction).  A pawn starts near one end of the counting line.  Players use their decks of cards to maneuver a pawn forward and back.
+One deck is cards that move the player forward or back a varying number of spaces.  This is the Doomed player.
+The other deck is two kinds of cards: doom cards, and effect cards.  This is the Doomer player.
+	Effect cards can, for example, change the directionality of a card played from the first deck, or switch whose turn it is.  
+	Doom cards, however, do not get used, but merely occupy space in the Doomer player's hand.  Once the Doomer player's hand is full and they can no longer draw, they play the handful of doom and the game is over.
+To begin, each player draws a hand of five cards.
+"Whose turn it is" is determined in a pair of simple "stack" mechanics: who reveals their card first, and what order their revealed effect resolves.  
+Each round, each player plays a card from their hand face down.  At the beginning of the game, the Doomer's card is revealed first, and the Doomed's card resolves first.  This gives the most advantage to the Doomed, for a smack of delicious irony.
+The Doomer player plays cards to manipulate these orders, and the tactic of which card to play (for instance, a forward or back) can change based on these manipulations.
+Where the pawn is at the end of the game determines the "resolved" condition (it's not a "win condition" per se, it's just "over now.")
+
+Doomed Deck:
+Forward and back movement cards x 20 ea
+
+Doomer Deck:
+Change resolve order
+Change reveal order
+Change movement-card direction
+DOOM
+
+Example Turn:
+  {"round":1,
+  "{player_1}":{"turn":1,"description":"Player 1 draws a hand of "},
+  
+PX Notes:
+Thoughts follow, on "feelings it should inspire," rather than "how it should play," although it's all up for discussion at this point. Perhaps the doomed player should feel like they're being forced to make a decision.  Inevitability and helplessness but with a sense of hope at the beginning that evaporates as the play goes on. Maybe that makes for a satisfying payoff in the context of the game, depending on how it gets themed ("35 y.o. doomer" memes kept popping into my head.  Easy source of material to rip off with a built-in audience, to be perfectly cynical about it).
+I'm already unsatisfied with the "handful of doom" ending. Any way to change the ending based on where the pawn is, where your inputs are number of turns (as counted by discarded cards), 
+
+TODO:
+Finish example turn
+Make mockup decks in NDeck
+Add prototype kit annotations (give alphanumeric IDs to the pieces referenced in the instructions)
